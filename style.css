@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fd6569;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+    
+    
+}
+.book{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.book h2{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.add{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.over{
+    display: none;
+    
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.box{
+    display: none;
+    background-color: #fd6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+    .box input{
+        background: transparent;
+        border: none;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        border-bottom: solid black 2px;
+    }
+    .box textarea{
+        background: transparent;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        border: solid black 2px;
+    }
+    .box input::placeholder{
+        color: black;
+    }
+    .box textarea::placeholder{
+        color: black;
+    }
+    .box button{
+        background-color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        border: none;
+    
+    }
+    .box input:focus{
+        outline: none;
+
+    }
+    .box textarea:focus{
+        outline: none;
+        
+    }
+    #can{
+        margin-left: 10%;
+    }
+    #b{
+        margin-top: 10px;
+        width: 35%;
+        background-color: #fd6569;
+        border: none;
+        border-radius: 10%;
+        font-size: 20px;
+    }
